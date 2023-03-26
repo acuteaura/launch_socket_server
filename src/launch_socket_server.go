@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 	"io"
-	"launch"
 	"net"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"strconv"
+
+	"github.com/acuteaura/launch_socket_server/src/launch"
 )
 
 var programName string
